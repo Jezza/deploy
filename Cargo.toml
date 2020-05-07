@@ -13,4 +13,4 @@ rpassword = "4.0.5"
 dirs = "2.0.2"
 structopt = "0.3.14"
 #gitlab = "=0.1209.1"
-gitlab = {path = "../rust-gitlab"}
+gitlab = {path = "gitlab"}
