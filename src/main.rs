@@ -108,6 +108,7 @@ fn download(gl: &Gitlab, output: Option<&str>, name: &str, deploy: &Deploy) -> R
 
 	println!("Creating file \"{}\"", path.display());
 	let mut file = std::fs::OpenOptions::new()
+		.write(true)
 		.create_new(true)
 		.open(&path)?;
 
