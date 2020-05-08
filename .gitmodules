@@ -1,3 +1,0 @@
-[submodule "gitlab"]
-	path = gitlab
-	url = ../gitlab-rs
