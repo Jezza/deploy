@@ -1,0 +1,131 @@
+{
+  "allow_collaboration": null,
+  "allow_maintainer_to_push": null,
+  "assignee": {
+    "avatar_url": "https://secure.gravatar.com/avatar/0617392a2f9fd505720d0c42cefc1a10?s=80&d=identicon",
+    "id": 10,
+    "name": "Brad King",
+    "state": "active",
+    "username": "brad.king",
+    "web_url": "https://gitlab.kitware.com/brad.king"
+  },
+  "assignees": [
+    {
+      "avatar_url": "https://secure.gravatar.com/avatar/0617392a2f9fd505720d0c42cefc1a10?s=80&d=identicon",
+      "id": 10,
+      "name": "Brad King",
+      "state": "active",
+      "username": "brad.king",
+      "web_url": "https://gitlab.kitware.com/brad.king"
+    }
+  ],
+  "author": {
+    "avatar_url": "https://secure.gravatar.com/avatar/2f5f7e99190174edb5a2f66b8653b0b2?s=80&d=identicon",
+    "id": 13,
+    "name": "Ben Boeckel",
+    "state": "active",
+    "username": "ben.boeckel",
+    "web_url": "https://gitlab.kitware.com/ben.boeckel"
+  },
+  "blocking_discussions_resolved": true,
+  "changes_count": "3",
+  "closed_at": null,
+  "closed_by": null,
+  "created_at": "2016-10-04T15:56:43.276-04:00",
+  "description": "Fixes #5.",
+  "diff_refs": {
+    "base_sha": "981262b03fc0149c1677ca51ea47b570e30d6a90",
+    "head_sha": "04e94ae667024a62a90179f395bfdc2b35f3efd2",
+    "start_sha": "981262b03fc0149c1677ca51ea47b570e30d6a90"
+  },
+  "discussion_locked": null,
+  "downvotes": 0,
+  "first_deployed_to_production_at": null,
+  "force_remove_source_branch": true,
+  "has_conflicts": false,
+  "head_pipeline": {
+    "before_sha": "0000000000000000000000000000000000000000",
+    "committed_at": null,
+    "coverage": null,
+    "created_at": "2016-10-04T15:56:53.822-04:00",
+    "detailed_status": {
+      "details_path": "/ben.boeckel/rust-gitlab/pipelines/29191",
+      "favicon": "/assets/ci_favicons/favicon_status_success-8451333011eee8ce9f2ab25dc487fe24a8758c694827a582f17f42b0a90446a2.png",
+      "group": "success",
+      "has_details": true,
+      "icon": "status_success",
+      "illustration": null,
+      "label": "passed",
+      "text": "passed",
+      "tooltip": "passed"
+    },
+    "duration": null,
+    "finished_at": "2016-10-04T15:56:53.868-04:00",
+    "id": 29191,
+    "ref": "add_hook-api",
+    "sha": "04e94ae667024a62a90179f395bfdc2b35f3efd2",
+    "started_at": null,
+    "status": "success",
+    "tag": false,
+    "updated_at": "2016-10-04T15:56:53.869-04:00",
+    "user": {
+      "avatar_url": "https://secure.gravatar.com/avatar/9ddcd45fcb89d966aab95b1f1002f84c?s=80&d=identicon",
+      "id": 11,
+      "name": "Kitware Robot",
+      "state": "active",
+      "username": "kwrobot",
+      "web_url": "https://gitlab.kitware.com/kwrobot"
+    },
+    "web_url": "https://gitlab.kitware.com/ben.boeckel/rust-gitlab/pipelines/29191",
+    "yaml_errors": null
+  },
+  "id": 20215,
+  "iid": 35,
+  "labels": [],
+  "latest_build_finished_at": null,
+  "latest_build_started_at": null,
+  "merge_commit_sha": null,
+  "merge_error": null,
+  "merge_status": "can_be_merged",
+  "merge_when_pipeline_succeeds": false,
+  "merged_at": "2016-10-04T16:18:57.914-04:00",
+  "merged_by": null,
+  "milestone": null,
+  "pipeline": null,
+  "project_id": 855,
+  "reference": "!35",
+  "references": {
+    "full": "utils/rust-gitlab!35",
+    "relative": "!35",
+    "short": "!35"
+  },
+  "sha": "04e94ae667024a62a90179f395bfdc2b35f3efd2",
+  "should_remove_source_branch": null,
+  "source_branch": "add_hook-api",
+  "source_project_id": 856,
+  "squash": false,
+  "squash_commit_sha": null,
+  "state": "merged",
+  "subscribed": true,
+  "target_branch": "master",
+  "target_project_id": 855,
+  "task_completion_status": {
+    "completed_count": 0,
+    "count": 0
+  },
+  "time_stats": {
+    "human_time_estimate": null,
+    "human_total_time_spent": null,
+    "time_estimate": 0,
+    "total_time_spent": 0
+  },
+  "title": "gitlab: expose hook addition API",
+  "updated_at": "2016-10-04T16:18:57.940-04:00",
+  "upvotes": 0,
+  "user": {
+    "can_merge": true
+  },
+  "user_notes_count": 3,
+  "web_url": "https://gitlab.kitware.com/utils/rust-gitlab/-/merge_requests/35",
+  "work_in_progress": false
+}
