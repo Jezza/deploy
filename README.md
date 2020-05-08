@@ -11,7 +11,7 @@ deploy service
 deploy service service2
 ```
 
-##Configuration
+## Configuration
 
 ```toml
 
